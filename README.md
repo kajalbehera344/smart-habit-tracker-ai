@@ -37,19 +37,5 @@ Run `chmod +x run_mac_linux.sh && ./run_mac_linux.sh`, then open http://127.0.0.
 - `DELETE /api/habits/<id>` — remove a habit
 - `POST /api/ai/reflect` — JSON `{ "text": "I finished my work and feel good." }`
 
-## Resume-ready description
-**Smart Habit Tracker AI | Python, Flask, SQLite, NLP, JavaScript**
-- Built a responsive habit-tracking dashboard with daily completion metrics, streak tracking, and weekly activity visualizations.
-- Integrated VADER sentiment analysis to classify journal reflections and generate lightweight personalized wellness suggestions.
-- Developed REST APIs and SQLite persistence for habit management, completion logs, and saved reflections.
 
-## Push to GitHub
-Create an empty GitHub repository, then run:
-```bash
-git init
-git add .
-git commit -m "Build Smart Habit Tracker AI"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/smart-habit-tracker-ai.git
-git push -u origin main
 ```
