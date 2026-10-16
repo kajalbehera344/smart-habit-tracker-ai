@@ -26,17 +26,8 @@ A responsive habit-tracking web app built with Flask, SQLite, vanilla JavaScript
 
 If PowerShell blocks activation, use `run_windows.bat` or run `.venv\\Scripts\\python.exe -m pip install -r requirements.txt`, then `.venv\\Scripts\\python.exe app.py`.
 
-## macOS/Linux
-Run `chmod +x run_mac_linux.sh && ./run_mac_linux.sh`, then open http://127.0.0.1:5000.
-
-## API endpoints
-- `GET /api/health` — health check
-- `GET /api/dashboard` — habits, statistics, chart data, and recent journal entries
-- `POST /api/habits` — JSON `{ "name": "Stretch", "category": "Health", "color": "#8b7cf6" }`
-- `POST /api/habits/<id>/toggle` — toggle today's completion
-- `DELETE /api/habits/<id>` — remove a habit
-- `POST /api/ai/reflect` — JSON `{ "text": "I finished my work and feel good." }`
-
+Live Demo: https://smart-habit-tracker-ai.onrender.com
+GitHub Repository: https://github.com/kajalbehera344/smart-habit-tracker-ai
 
 ```
 
