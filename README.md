@@ -39,3 +39,6 @@ Run `chmod +x run_mac_linux.sh && ./run_mac_linux.sh`, then open http://127.0.0.
 
 
 ```
+
+## Latest Update
+README documentation updated.
