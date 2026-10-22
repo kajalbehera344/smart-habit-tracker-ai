@@ -65,65 +65,6 @@ smart-habit-tracker-ai/
 └── instance/
     └── habits.db
 ```
-
-📌 The folder structure may vary depending on your project files. The database is typically created locally when the application initializes.
-
-⚙️ Installation and Setup
-
-📋 Prerequisites
-
-✅ Python 3.10 or a compatible version
-
-✅ Git
-
-✅ Visual Studio Code or another code editor
-
-💻 Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/kajalbehera344/smart-habit-tracker-ai.git
-cd smart-habit-tracker-ai
-```
-
-🐍 Step 2: Create a Virtual Environment
-
-Windows PowerShell:
-
-```powershell
-py -m venv .venv
-```
-
-Activate the environment:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-macOS/Linux:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-📦 Step 3: Install Dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-🚀 Step 4: Run the Application
-
-```bash
-python app.py
-```
-
-🌐 Step 5: Open in Your Browser
-
-Visit: http://127.0.0.1:5000
-
-💡 Windows alternative: Run `run_windows.bat` from the project directory.
-
 🔌 API Endpoints
 
 | Method | Endpoint | Description |
@@ -194,6 +135,3 @@ Kajal Behera
 
 🔗 GitHub: https://github.com/kajalbehera344
 
-📄 License
-
-This project is available for educational and personal portfolio purposes. Add a `LICENSE` file if you intend to distribute it under a specific open-source license.
